@@ -6,14 +6,24 @@ main {
   margin: auto 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .container {
   border: 1px solid;
-  width: 50%;
+  width: 80%;
   padding: 10px;
 }
 
 .top-section {
   margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-primary {
+  padding: 1.8rem;
 }
 
 .bottom-section {
@@ -27,4 +37,14 @@ main {
 .task-detail {
   display: flex;
   justify-content: space-between;
+}
+
+.left-pan {
+  display: flex;
+  align-items: center;
+}
+
+.section-add-list {
+  /* display: flex; */
+  align-self: center;
 }
